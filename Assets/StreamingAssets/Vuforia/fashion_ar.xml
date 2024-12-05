@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="puffer" size="1500.000000 1500.000000" />
+    <ImageTarget name="bottom" size="1500.000000 1500.000000" />
+    <ImageTarget name="tshirt" size="1500.000000 1500.000000" />
+    <ImageTarget name="beanie" size="1500.000000 1500.000000" />
+    <ImageTarget name="hoodie" size="1500.000000 1500.000000" />
+  </Tracking>
+</QCARConfig>
