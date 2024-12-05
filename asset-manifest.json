@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/FashionAR/static/css/main.108f3b29.css",
-    "main.js": "/FashionAR/static/js/main.bbbb524b.js",
-    "static/js/453.7f03ab5d.chunk.js": "/FashionAR/static/js/453.7f03ab5d.chunk.js",
-    "index.html": "/FashionAR/index.html",
-    "main.108f3b29.css.map": "/FashionAR/static/css/main.108f3b29.css.map",
-    "main.bbbb524b.js.map": "/FashionAR/static/js/main.bbbb524b.js.map",
-    "453.7f03ab5d.chunk.js.map": "/FashionAR/static/js/453.7f03ab5d.chunk.js.map"
+    "main.css": "https://tantowijh.github.io/FashionAR/static/css/main.108f3b29.css",
+    "main.js": "https://tantowijh.github.io/FashionAR/static/js/main.8a350cf1.js",
+    "static/js/453.7f03ab5d.chunk.js": "https://tantowijh.github.io/FashionAR/static/js/453.7f03ab5d.chunk.js",
+    "index.html": "https://tantowijh.github.io/FashionAR/index.html",
+    "main.108f3b29.css.map": "https://tantowijh.github.io/FashionAR/static/css/main.108f3b29.css.map",
+    "main.8a350cf1.js.map": "https://tantowijh.github.io/FashionAR/static/js/main.8a350cf1.js.map",
+    "453.7f03ab5d.chunk.js.map": "https://tantowijh.github.io/FashionAR/static/js/453.7f03ab5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.108f3b29.css",
-    "static/js/main.bbbb524b.js"
+    "static/js/main.8a350cf1.js"
   ]
 }
