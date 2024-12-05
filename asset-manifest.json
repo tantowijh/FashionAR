@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FashionAR/static/css/main.108f3b29.css",
+    "main.js": "/FashionAR/static/js/main.4104c5c3.js",
+    "static/js/453.7f03ab5d.chunk.js": "/FashionAR/static/js/453.7f03ab5d.chunk.js",
+    "index.html": "/FashionAR/index.html",
+    "main.108f3b29.css.map": "/FashionAR/static/css/main.108f3b29.css.map",
+    "main.4104c5c3.js.map": "/FashionAR/static/js/main.4104c5c3.js.map",
+    "453.7f03ab5d.chunk.js.map": "/FashionAR/static/js/453.7f03ab5d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.108f3b29.css",
+    "static/js/main.4104c5c3.js"
+  ]
+}
