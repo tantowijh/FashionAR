@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.108f3b29.css",
-    "main.js": "/static/js/main.c260955c.js",
-    "static/js/453.7f03ab5d.chunk.js": "/static/js/453.7f03ab5d.chunk.js",
-    "index.html": "/index.html",
-    "main.108f3b29.css.map": "/static/css/main.108f3b29.css.map",
-    "main.c260955c.js.map": "/static/js/main.c260955c.js.map",
-    "453.7f03ab5d.chunk.js.map": "/static/js/453.7f03ab5d.chunk.js.map"
+    "main.css": "/FashionAR/webpage/static/css/main.108f3b29.css",
+    "main.js": "/FashionAR/webpage/static/js/main.f53770a7.js",
+    "static/js/453.7f03ab5d.chunk.js": "/FashionAR/webpage/static/js/453.7f03ab5d.chunk.js",
+    "index.html": "/FashionAR/webpage/index.html",
+    "main.108f3b29.css.map": "/FashionAR/webpage/static/css/main.108f3b29.css.map",
+    "main.f53770a7.js.map": "/FashionAR/webpage/static/js/main.f53770a7.js.map",
+    "453.7f03ab5d.chunk.js.map": "/FashionAR/webpage/static/js/453.7f03ab5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.108f3b29.css",
-    "static/js/main.c260955c.js"
+    "static/js/main.f53770a7.js"
   ]
 }
