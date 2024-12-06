@@ -42,7 +42,7 @@ function App() {
             <div className="container">
               <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">
 
-                <div className="bg-white shadow-md rounded-xl overflow-hidden group">
+                <div className="bg-gray-100 shadow-md rounded-xl overflow-hidden group">
                   <div className="relative">
                     <img src={`${process.env.PUBLIC_URL}/Assets/images/hoodie.png`} alt="Hoodie" />
                     <div className="absolute inset-y-0 flex items-center -end-20 group-hover:end-1 duration-500 m-2">
@@ -96,7 +96,7 @@ function App() {
                   </div>
                 </div>
 
-                <div className="bg-white shadow-md rounded-xl overflow-hidden group">
+                <div className="bg-gray-100 shadow-md rounded-xl overflow-hidden group">
                   <div className="relative">
                     <img src={`${process.env.PUBLIC_URL}/Assets/images/tshirt.png`} alt="T-shirt" />
                     <div className="absolute inset-y-0 flex items-center -end-20 group-hover:end-1 duration-500 m-2">
@@ -150,7 +150,7 @@ function App() {
                   </div>
                 </div>
 
-                <div className="bg-white shadow-md rounded-xl overflow-hidden group">
+                <div className="bg-gray-100 shadow-md rounded-xl overflow-hidden group">
                   <div className="relative">
                     <img src={`${process.env.PUBLIC_URL}/Assets/images/bottoms.png`} alt="Bottoms" />
                     <div className="absolute inset-y-0 flex items-center -end-20 group-hover:end-1 duration-500 m-2">
@@ -204,7 +204,7 @@ function App() {
                   </div>
                 </div>
 
-                <div className="bg-white shadow-md rounded-xl overflow-hidden group">
+                <div className="bg-gray-100 shadow-md rounded-xl overflow-hidden group">
                   <div className="relative">
                     <img src={`${process.env.PUBLIC_URL}/Assets/images/beaniehat.png`} alt="Beanie Hat" />
                     <div className="absolute inset-y-0 flex items-center -end-20 group-hover:end-1 duration-500 m-2">
@@ -258,7 +258,7 @@ function App() {
                   </div>
                 </div>
 
-                <div className="bg-white shadow-md rounded-xl overflow-hidden group">
+                <div className="bg-gray-100 shadow-md rounded-xl overflow-hidden group">
                   <div className="relative">
                     <img src={`${process.env.PUBLIC_URL}/Assets/images/puffer.png`} alt="Puffer Jacket" />
                     <div className="absolute inset-y-0 flex items-center -end-20 group-hover:end-1 duration-500 m-2">
