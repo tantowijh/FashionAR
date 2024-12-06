@@ -27,6 +27,9 @@ function App() {
                 className="text-4xl font-bold leading-[50px] tracking-wide text-transparent bg-clip-text bg-gradient-to-l from-pink-400 to-blue-600 mb-2 mt-5 max-w-2xl">
                 FashionAR - Menjual berbagai macam fashion dengan teknologi AR
               </h1>
+              <p className="mt-4 text-lg text-gray-700">
+                Unduh aplikasi FashionAR untuk melihat produk secara langsung: <a href="https://github.com/tantowijh/FashionAR/releases/tag/v1.0.0-beta" className="text-blue-500 underline">FashionAR App</a>
+              </p>
             </div>
           </div>
         </div>
