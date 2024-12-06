@@ -22,7 +22,7 @@ function App() {
         <div className="container">
           <div className="flex items-center justify-center">
             <div className="text-center">
-              <img src="assets/images/logo.svg" className="mx-auto h-9" alt="Logo" />
+              <img src={`${process.env.PUBLIC_URL}/Assets/images/logo.svg`} className="mx-auto h-9" alt="Logo" />
               <h1
                 className="text-4xl font-bold leading-[50px] tracking-wide text-transparent bg-clip-text bg-gradient-to-l from-pink-400 to-blue-600 mb-2 mt-5 max-w-2xl">
                 FashionAR - Menjual berbagai macam fashion dengan teknologi AR
@@ -41,7 +41,7 @@ function App() {
 
                 <div className="bg-white shadow-md rounded-xl overflow-hidden group">
                   <div className="relative">
-                    <img src="assets/images/hoodie.png" alt="Hoodie" />
+                    <img src={`${process.env.PUBLIC_URL}/Assets/images/hoodie.png`} alt="Hoodie" />
                     <div className="absolute inset-y-0 flex items-center -end-20 group-hover:end-1 duration-500 m-2">
                       <div className="p-2">
                         <ul className="mb-4 space-y-2 flex flex-col items-center justify-end p-4">
@@ -52,7 +52,7 @@ function App() {
                           </li>
                           <li>
                             <button
-                              onClick={() => showQrModal('assets/images/hoodie_qr.png')}
+                              onClick={() => showQrModal(`${process.env.PUBLIC_URL}/Assets/images/hoodie_qr.png`)}
                               className="qrModalOpener h-10 w-10 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-lg bg-blue-100 bg-opacity-80">
                               <i className="ti ti-eye text-xl text-blue-600"></i>
                             </button>
@@ -95,7 +95,7 @@ function App() {
 
                 <div className="bg-white shadow-md rounded-xl overflow-hidden group">
                   <div className="relative">
-                    <img src="assets/images/tshirt.png" alt="T-shirt" />
+                    <img src={`${process.env.PUBLIC_URL}/Assets/images/tshirt.png`} alt="T-shirt" />
                     <div className="absolute inset-y-0 flex items-center -end-20 group-hover:end-1 duration-500 m-2">
                       <div className="p-2">
                         <ul className="mb-4 space-y-2 flex flex-col items-center justify-end p-4">
@@ -106,7 +106,7 @@ function App() {
                           </li>
                           <li>
                             <button
-                              onClick={() => showQrModal('assets/images/tshirt_qr.png')}
+                              onClick={() => showQrModal(`${process.env.PUBLIC_URL}/Assets/images/tshirt_qr.png`)}
                               className="qrModalOpener h-10 w-10 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-lg bg-blue-100 bg-opacity-80">
                               <i className="ti ti-eye text-xl text-blue-600"></i>
                             </button>
@@ -149,7 +149,7 @@ function App() {
 
                 <div className="bg-white shadow-md rounded-xl overflow-hidden group">
                   <div className="relative">
-                    <img src="assets/images/bottoms.png" alt="Bottoms" />
+                    <img src={`${process.env.PUBLIC_URL}/Assets/images/bottoms.png`} alt="Bottoms" />
                     <div className="absolute inset-y-0 flex items-center -end-20 group-hover:end-1 duration-500 m-2">
                       <div className="p-2">
                         <ul className="mb-4 space-y-2 flex flex-col items-center justify-end p-4">
@@ -160,7 +160,7 @@ function App() {
                           </li>
                           <li>
                             <button
-                              onClick={() => showQrModal('assets/images/bottoms_qr.png')}
+                              onClick={() => showQrModal(`${process.env.PUBLIC_URL}/Assets/images/bottoms_qr.png`)}
                               className="qrModalOpener h-10 w-10 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-lg bg-blue-100 bg-opacity-80">
                               <i className="ti ti-eye text-xl text-blue-600"></i>
                             </button>
@@ -203,7 +203,7 @@ function App() {
 
                 <div className="bg-white shadow-md rounded-xl overflow-hidden group">
                   <div className="relative">
-                    <img src="assets/images/beaniehat.png" alt="Beanie Hat" />
+                    <img src={`${process.env.PUBLIC_URL}/Assets/images/beaniehat.png`} alt="Beanie Hat" />
                     <div className="absolute inset-y-0 flex items-center -end-20 group-hover:end-1 duration-500 m-2">
                       <div className="p-2">
                         <ul className="mb-4 space-y-2 flex flex-col items-center justify-end p-4">
@@ -214,7 +214,7 @@ function App() {
                           </li>
                           <li>
                             <button
-                              onClick={() => showQrModal('assets/images/beaniehat_qr.png')}
+                              onClick={() => showQrModal(`${process.env.PUBLIC_URL}/Assets/images/beaniehat_qr.png`)}
                               className="qrModalOpener h-10 w-10 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-lg bg-blue-100 bg-opacity-80">
                               <i className="ti ti-eye text-xl text-blue-600"></i>
                             </button>
@@ -257,7 +257,7 @@ function App() {
 
                 <div className="bg-white shadow-md rounded-xl overflow-hidden group">
                   <div className="relative">
-                    <img src="assets/images/puffer.png" alt="Puffer Jacket" />
+                    <img src={`${process.env.PUBLIC_URL}/Assets/images/puffer.png`} alt="Puffer Jacket" />
                     <div className="absolute inset-y-0 flex items-center -end-20 group-hover:end-1 duration-500 m-2">
                       <div className="p-2">
                         <ul className="mb-4 space-y-2 flex flex-col items-center justify-end p-4">
@@ -268,7 +268,7 @@ function App() {
                           </li>
                           <li>
                             <button
-                              onClick={() => showQrModal('assets/images/puffer_qr.png')}
+                              onClick={() => showQrModal(`${process.env.PUBLIC_URL}/Assets/images/puffer_qr.png`)}
                               className="qrModalOpener h-10 w-10 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-lg bg-blue-100 bg-opacity-80">
                               <i className="ti ti-eye text-xl text-blue-600"></i>
                             </button>

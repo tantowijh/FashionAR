@@ -7,7 +7,6 @@ const Layout = ({ children }) => {
   return (
     <div>
       {children}
-      <script src="assets/js/theme.min.js"></script>
     </div>
   );
 };
