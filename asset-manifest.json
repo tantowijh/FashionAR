@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/FashionAR/static/css/main.108f3b29.css",
-    "main.js": "/FashionAR/static/js/main.a75a9064.js",
+    "main.js": "/FashionAR/static/js/main.ae3eea5b.js",
     "static/js/453.7f03ab5d.chunk.js": "/FashionAR/static/js/453.7f03ab5d.chunk.js",
     "index.html": "/FashionAR/index.html",
     "main.108f3b29.css.map": "/FashionAR/static/css/main.108f3b29.css.map",
-    "main.a75a9064.js.map": "/FashionAR/static/js/main.a75a9064.js.map",
+    "main.ae3eea5b.js.map": "/FashionAR/static/js/main.ae3eea5b.js.map",
     "453.7f03ab5d.chunk.js.map": "/FashionAR/static/js/453.7f03ab5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.108f3b29.css",
-    "static/js/main.a75a9064.js"
+    "static/js/main.ae3eea5b.js"
   ]
 }
