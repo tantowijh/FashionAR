@@ -6,9 +6,11 @@ import QrModal from './components/QrModal';
 function App() {
   const [isModalVisible, setModalVisible] = useState(false);
   const [qrSrc, setQrSrc] = useState('');
+  const [qrProduct, setQrProduct] = useState('');
 
-  const showQrModal = (src) => {
+  const showQrModal = (src, product) => {
     setQrSrc(src);
+    setQrProduct(product);
     setModalVisible(true);
   };
 
@@ -55,7 +57,7 @@ function App() {
                           </li>
                           <li>
                             <button
-                              onClick={() => showQrModal(`${process.env.PUBLIC_URL}/Assets/images/hoodie_qr.png`)}
+                              onClick={() => showQrModal(`${process.env.PUBLIC_URL}/Assets/images/hoodie_qr.png`, 'Hoodie')}
                               className="qrModalOpener h-10 w-10 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-lg bg-blue-100 bg-opacity-80">
                               <i className="ti ti-eye text-xl text-blue-600"></i>
                             </button>
@@ -109,7 +111,7 @@ function App() {
                           </li>
                           <li>
                             <button
-                              onClick={() => showQrModal(`${process.env.PUBLIC_URL}/Assets/images/tshirt_qr.png`)}
+                              onClick={() => showQrModal(`${process.env.PUBLIC_URL}/Assets/images/tshirt_qr.png`, 'T-shirt')}
                               className="qrModalOpener h-10 w-10 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-lg bg-blue-100 bg-opacity-80">
                               <i className="ti ti-eye text-xl text-blue-600"></i>
                             </button>
@@ -163,7 +165,7 @@ function App() {
                           </li>
                           <li>
                             <button
-                              onClick={() => showQrModal(`${process.env.PUBLIC_URL}/Assets/images/bottoms_qr.png`)}
+                              onClick={() => showQrModal(`${process.env.PUBLIC_URL}/Assets/images/bottoms_qr.png`, 'Bottoms')}
                               className="qrModalOpener h-10 w-10 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-lg bg-blue-100 bg-opacity-80">
                               <i className="ti ti-eye text-xl text-blue-600"></i>
                             </button>
@@ -217,7 +219,7 @@ function App() {
                           </li>
                           <li>
                             <button
-                              onClick={() => showQrModal(`${process.env.PUBLIC_URL}/Assets/images/beaniehat_qr.png`)}
+                              onClick={() => showQrModal(`${process.env.PUBLIC_URL}/Assets/images/beaniehat_qr.png`, 'Beanie Hat')}
                               className="qrModalOpener h-10 w-10 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-lg bg-blue-100 bg-opacity-80">
                               <i className="ti ti-eye text-xl text-blue-600"></i>
                             </button>
@@ -271,7 +273,7 @@ function App() {
                           </li>
                           <li>
                             <button
-                              onClick={() => showQrModal(`${process.env.PUBLIC_URL}/Assets/images/puffer_qr.png`)}
+                              onClick={() => showQrModal(`${process.env.PUBLIC_URL}/Assets/images/puffer_qr.png`, 'Puffer Jacket')}
                               className="qrModalOpener h-10 w-10 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-lg bg-blue-100 bg-opacity-80">
                               <i className="ti ti-eye text-xl text-blue-600"></i>
                             </button>
@@ -316,7 +318,7 @@ function App() {
             </div>
           </div>
         </div>
-        <QrModal isVisible={isModalVisible} qrSrc={qrSrc} onClose={hideQrModal} />
+        <QrModal isVisible={isModalVisible} qrSrc={qrSrc} qrProduct={qrProduct} onClose={hideQrModal} />
       </section>
     </Layout>
   );

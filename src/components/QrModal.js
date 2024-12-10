@@ -1,7 +1,7 @@
 // src/components/QrModal.js
 import React, { useEffect, useRef } from 'react';
 
-const QrModal = ({ isVisible, qrSrc, onClose }) => {
+const QrModal = ({ isVisible, qrSrc, qrProduct, onClose }) => {
     const modalRef = useRef(null);
 
     useEffect(() => {
@@ -25,7 +25,7 @@ const QrModal = ({ isVisible, qrSrc, onClose }) => {
                 <span onClick={onClose} className="qrModalCloser absolute top-0 right-2 cursor-pointer text-3xl text-gray-500 hover:text-red-500">
                     &times;
                 </span>
-                <h2 className="text-lg font-medium mb-4">Scan kode QR ini pada aplikasi FashionAR untuk melihat detail 3D.</h2>
+                <h2 className="text-lg font-medium mb-4">Lihat produk <span className="font-bold text-blue-600">{qrProduct}</span> secara langsung dengan aplikasi FashionAR!</h2>
                 <img src={qrSrc} alt="QR Code" className="mx-auto" />
             </div>
         </div>
